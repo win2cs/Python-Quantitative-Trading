@@ -326,7 +326,7 @@ buy_factors = [{'xd': 20,'class': FactorBuyNdayBreak},
                {'xd': 30,'class': FactorBuyAverBreak}]
 
 sell_factors = [{'xd': 5,'class': FactorSellNdayBreak},
-                {'xd': 30,'class': FactorSellAverBreak}]
+                {'xd': 30,'class': FactorSellAverBreak},
                 {'stop_loss_n': 0.8,'stop_win_n': 2,'class': FactorSellAtrStop}]
 
 stock = web.DataReader("600797.SS", "yahoo", datetime.datetime(2018,1,1), datetime.date.today())
